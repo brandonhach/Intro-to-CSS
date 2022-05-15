@@ -1,33 +1,11 @@
-html {
+body {
     font-size: 22px;
-}
-
-
-main {
-    font-family: monospace;
-}
-
-button, input, textarea, select { 
-    font: inherit;
-}
-
-h1, h2 {
-    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: papayawhip;
+    color: rgb(0, 0 ,0);
 }
 
 p {
-    color: purple;
-}
-
-.highlight {
-    text-transform: uppercase;
-    background-color: gold;
-}
-
-.gray {
-    color: gray;
-}
-
-#second {
-    font-style: italic;
+    color: rgba(0, 0, 0, .5);
 }
