@@ -1,0 +1,37 @@
+/*Universal Selector [defaulted settings] */
+* {
+}
+body {
+	font-size: 22px;
+}
+
+/*Group selector  */
+h1,
+h2 {
+	color: blue;
+}
+
+p {
+	color: purple;
+}
+
+/*Whichever defintion CSS reads last is applied. */
+p {
+	color: red;
+}
+
+/*Nested Selectors to highlight words in a paragraph */
+.highlight {
+	text-transform: uppercase;
+	background-color: gold;
+}
+
+/*Class attribute; more specific  */
+.gray {
+	color: gray;
+}
+
+/*ID attribute only used once, try to keep them out of css. */
+#second {
+	font-style: italic;
+}
