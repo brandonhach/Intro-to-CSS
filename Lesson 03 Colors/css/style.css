@@ -1,0 +1,12 @@
+body {
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	background: papayawhip;
+	color: darkblue;
+}
+
+/*Color- palette picking tools. coolors.co */
+p {
+	color: rgba(0, 0, 0, 0.5);
+}
