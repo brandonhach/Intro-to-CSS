@@ -1,0 +1,23 @@
+h1 {
+	border: 2px dashed red;
+	width: 50%;
+	font-size: 3rem;
+	padding: 0.5em;
+}
+
+/*Allows the body to grow with the content without adding horizontal scroll bar. */
+body {
+	min-height: 100vh;
+}
+
+main {
+	font-size: 2rem;
+}
+
+/*  don't use absolute font size such as px due to user text non-scalability.
+    1rem is default setting.
+*/
+p {
+	font-size: 2rem;
+	width: 40ch;
+}
